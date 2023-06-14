@@ -1,0 +1,93 @@
+body
+{
+    background-color: black;
+}
+.logo
+{
+    font-size: 42px;
+    color: azure;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.topdog .selection
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.topdog
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.selection .rock
+{
+    width: 300px;
+    height: 300px;
+    
+}
+.rock .rock_img
+{
+    height: 280px;
+    width: 280px;
+}
+.selection .paper
+{
+    width: 300px;
+    height: 300px;
+}
+.paper:hover
+{
+    border-color: blueviolet;
+    border-width: 8px;
+}
+.rock:hover
+{
+    border-color: blueviolet;
+    border-width: 8px;
+}
+.scissor:hover
+{
+    border-color: blueviolet;
+    border-width: 8px;
+}
+.paper .paper_img
+{
+    width: 280px;
+    height: 280px;
+}
+.selection .scissor
+{
+    width: 300px;
+    height: 300px;
+}
+.scissor .scissor_img
+{
+    width: 280px;
+    height: 280px;
+}
+.topdog .score
+{
+    color:aliceblue;
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+.topdog .display
+{
+    color:aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.score , .display, .score_d, .events
+{
+    font-size: 35px;
+    color: azure;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
